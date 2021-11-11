@@ -16,7 +16,7 @@ const MainMenu = () => {
           </li>
           <li>
             <Link href="/blog">Blog</Link>
-            <ul className="submenu">
+            {/* <ul className="submenu">
               <li>
                 <Link href="blog.html">Blog</Link>
               </li>
@@ -26,7 +26,7 @@ const MainMenu = () => {
               <li>
                 <Link href="elements.html">Element</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li>
             <Link href="/contact">Contact</Link>
