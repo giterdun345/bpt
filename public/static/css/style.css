@@ -366,13 +366,19 @@ h6 a {
 
 /* line 121, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 ul {
-  margin: 0px;
+  /* margin: 0; */
+  margin-top: 7rem;
   padding: 0px;
+  background: white;
 }
 
 /* line 125, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 li {
   list-style: none;
+  min-height: 48px;
+  min-width: 48px;
+  font-size: 2rem;
+  background: yellow;
 }
 
 /* line 129, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
