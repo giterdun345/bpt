@@ -1,33 +1,35 @@
+import Link from "next/link";
+
 const MainMenu = () => {
   return (
     <div className="main-menu d-none d-lg-block">
       <nav>
-        <ul id="navigation">
+        <ul className="main-menu-text">
           <li>
-            <a href="index.html">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <Link href="/company">Company</Link>
           </li>
           <li>
-            <a href="services.html">Services</a>
+            <Link href="/services">Services</Link>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <Link href="/blog">Blog</Link>
             <ul className="submenu">
               <li>
-                <a href="blog.html">Blog</a>
+                <Link href="blog.html">Blog</Link>
               </li>
               <li>
-                <a href="blog_details.html">Blog Details</a>
+                <Link href="blog_details.html">Blog Details</Link>
               </li>
               <li>
-                <a href="elements.html">Element</a>
+                <Link href="elements.html">Element</Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

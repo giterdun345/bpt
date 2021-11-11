@@ -22,10 +22,17 @@ const MobileMenu = () => {
             size={100}
             duration={0.9}
             rounded
+            style={{ marginRight: "1rem" }}
           />
         </nav>
       </div>
-      {isOpen ? <SideNav /> : null}
+      <div
+        style={{ width: "100vw" }}
+        className={isOpen ? "" : "sidenav-hidden"}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <SideNav />
+      </div>
     </>
   );
 };

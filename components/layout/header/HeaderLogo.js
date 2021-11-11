@@ -4,9 +4,8 @@ import Link from "next/link";
 
 const HeaderLogo = () => {
   return (
-    <div className="col-xl-3 col-lg-3">
+    <div className="col-xl-4 col-lg-4">
       <div className="logo">
-        {/* <img src="/static/img/logo/logo.png" alt="st" /> */}
         <Link href="/">
           <Image
             src={"/static/img/logo/BPT_Logo.jpg"}

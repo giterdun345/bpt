@@ -4,11 +4,11 @@ import MobileMenu from "./MobileMenu";
 
 const HeaderBottom = () => {
   return (
-    <div className="header-bottom  header-sticky">
+    <div className="header-bottom header-sticky">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center" style={{ marginTop: "1rem" }}>
           <HeaderLogo />
-          <div className="col-xl-10 col-lg-10">
+          <div className="col-xl-12 col-lg-12">
             <div className="menu-wrapper d-flex align-items-center justify-content-end">
               <MainMenu />
             </div>

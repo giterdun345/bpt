@@ -366,19 +366,40 @@ h6 a {
 
 /* line 121, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 ul {
-  /* margin: 0; */
+  margin: 0;
+  padding: 0px;
+}
+
+.sidenav-hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+.sidenav-ul {
   margin-top: 7rem;
   padding: 0px;
   background: white;
 }
 
+.sidenav-links {
+  color: black !important;
+}
+
 /* line 125, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 li {
   list-style: none;
-  min-height: 48px;
-  min-width: 48px;
-  font-size: 2rem;
-  background: yellow;
+}
+
+li:hover {
+  background: #f5f5f5;
+}
+
+.sidenav-li {
+  list-style: none;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
 }
 
 /* line 129, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -3219,6 +3240,12 @@ hero-btn {
   color: #14435c;
 }
 
+.header-area .header-bottom {
+  padding: 17px 0px;
+  height: 10rem;
+  align-content: center;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .header-bottom {
@@ -3315,10 +3342,16 @@ hero-btn {
   z-index: 3;
 }
 
+.main-menu-text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 76, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu {
-    margin-right: 30px;
+    /* margin-right: 30px; */
   }
 }
 
@@ -3333,15 +3366,29 @@ hero-btn {
 .main-header .main-menu ul li a {
   color: #0d2d3e;
   font-weight: 400;
-  padding: 39px 19px;
+  /* padding: 48px 80px; */
   display: block;
-  font-size: 16px;
+  font-size: 1.8rem;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   text-transform: capitalize;
+}
+
+.menu-wrapper {
+  margin-top: -1.6rem;
+  margin-right: 0;
+}
+
+@media only screen and (min-width: 1199px) {
+  .main-header .main-menu ul li a {
+    padding: 2rem;
+  }
+  .menu-wrapper {
+    height: 8rem;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8312,7 +8359,7 @@ del {
 
 .logo {
   /* background: black; */
-  width: 20rem;
+  width: 16rem;
   position: absolute;
   top: 5%;
 }
