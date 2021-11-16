@@ -2,7 +2,7 @@ import Head from "next/head";
 // components
 import Preloader from "../components/layout/Preloader";
 import Header from "../components/layout/header/Header";
-import Footer from "../components/layout/Footer";
+import Footer from "../components/layout/footer/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (

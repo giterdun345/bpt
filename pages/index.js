@@ -1,75 +1,129 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 // components
-
+import Hero from "../components/home/HeroSlider/Hero";
+import HeroButton from "../components/home/HeroSlider/HeroButton";
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Balance Point Technologies: Home</title>
+        <title>BPT: Home</title>
+        <link rel="stylesheet" href="./static/css/style.css" />
       </Head>
-
-      {/* slider Area Start*/}
+      {/* <Hero /> */}
       <div className="slider-area ">
         <div className="slider-active">
-          {/* Single Slider */}
           <div className="single-slider slider-height d-flex align-items-center">
             <div className="container">
               <div className="row">
                 <div className="col-xl-8 col-lg-7 col-md-8">
                   <div className="hero__caption">
                     <span data-animation="fadeInLeft" data-delay=".1s">
-                      Committed to success
+                      We have a solution for you
                     </span>
                     <h1 data-animation="fadeInLeft" data-delay=".5s">
-                      We help to grow your business
+                      Balance Point Technologies
                     </h1>
                     <p data-animation="fadeInLeft" data-delay=".9s">
-                      Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr
-                      indd re voluptate
-                      <br /> velit esscillumlore eu quife nrulla parihatur.
+                      Providing Consulting Services, Custom Development and
+                      Standard Applications for MAX and Dynamics GP since 1996
                     </p>
-                    {/* Hero-btn */}
+                    {/* <HeroButton
+                      link="/contact"
+                      title="Contact Us For A Quote"
+                    /> */}
                     <div
                       className="hero__btn"
                       data-animation="fadeInLeft"
                       data-delay="1.1s"
                     >
-                      <a href="industries.html" className="btn hero-btn">
-                        Our Services
-                      </a>
+                      <Link href="/contact" className="btn hero-btn">
+                        Contact Us For A Quote
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* Single Slider */}
+          {/* Slide2 */}
           <div className="single-slider slider-height d-flex align-items-center">
             <div className="container">
               <div className="row">
                 <div className="col-xl-8 col-lg-7 col-md-8">
                   <div className="hero__caption">
                     <span data-animation="fadeInLeft" data-delay=".1s">
-                      Committed to success
+                      Have an idea to optimize your workflow?
                     </span>
                     <h1 data-animation="fadeInLeft" data-delay=".5s">
-                      We help to grow your business
+                      Learn about what we offer
                     </h1>
                     <p data-animation="fadeInLeft" data-delay=".9s">
-                      Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr
-                      indd re voluptate
-                      <br /> velit esscillumlore eu quife nrulla parihatur.
+                      Start optimizing with MAX Toolkit or a custom solution for
+                      Dynamic GP today. We offer an extensive range of cost
+                      effective products to help you delivered by a team with
+                      technical excellence. With efficiency of staff and
+                      operations always being a concern for any organization, we
+                      ensure you are provided with a tool that is well suited to
+                      your needs increasing MAX user productivity. We put a high
+                      value on transparency and extensive communication to make
+                      sure the needs and expectations of every client are
+                      covered.
                     </p>
-                    {/* Hero-btn */}
+                    {/* <HeroButton
+                      link="/services"
+                      title="Read About Our Services"
+                    /> */}
                     <div
                       className="hero__btn"
                       data-animation="fadeInLeft"
                       data-delay="1.1s"
                     >
-                      <a href="industries.html" className="btn hero-btn">
-                        Our Services
-                      </a>
+                      <Link href="/services" className="btn hero-btn">
+                        Read More About Our Services
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="single-slider slider-height d-flex align-items-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-8 col-lg-7 col-md-8">
+                  <div className="hero__caption">
+                    <span data-animation="fadeInLeft" data-delay=".1s">
+                      Have an idea to optimize your workflow?
+                    </span>
+                    <h1 data-animation="fadeInLeft" data-delay=".5s">
+                      Learn about what we offer
+                    </h1>
+                    <p data-animation="fadeInLeft" data-delay=".9s">
+                      Start optimizing with MAX Toolkit or a custom solution for
+                      Dynamic GP today. We offer an extensive range of cost
+                      effective products to help you delivered by a team with
+                      technical excellence. With efficiency of staff and
+                      operations always being a concern for any organization, we
+                      ensure you are provided with a tool that is well suited to
+                      your needs increasing MAX user productivity. We put a high
+                      value on transparency and extensive communication to make
+                      sure the needs and expectations of every client are
+                      covered.
+                    </p>
+                    {/* <HeroButton
+                      link="/services"
+                      title="Read About Our Services"
+                    /> */}
+                    <div
+                      className="hero__btn"
+                      data-animation="fadeInLeft"
+                      data-delay="1.1s"
+                    >
+                      <Link href="/services" className="btn hero-btn">
+                        Read More About Our Services
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -78,7 +132,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* slider Area End*/}
       {/*? Categories Area Start */}
       <div className="categories-area section-padding30">
         <div className="container">
