@@ -1,4 +1,3 @@
-import cx from "classnames";
 // components
 import HeaderInfoLeft from "./HeaderInfoLeft";
 import HeaderInfoRight from "./HeaderInfoRight";
@@ -12,7 +11,7 @@ const Header = () => {
           <div className="header-top d-none d-lg-block">
             <div className="container">
               <div className="col-xl-12">
-                <div className="row d-flex justify-content-between align-items-center">
+                <div className="column d-flex justify-content-between align-items-center">
                   <HeaderInfoLeft />
                   <HeaderInfoRight />
                 </div>

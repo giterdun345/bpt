@@ -11,8 +11,8 @@ export default function Home() {
         <title>BPT: Home</title>
         <link rel="stylesheet" href="./static/css/style.css" />
       </Head>
-      {/* <Hero /> */}
-      <div className="slider-area ">
+      <Hero />
+      {/* <div className="slider-area ">
         <div className="slider-active">
           <div className="single-slider slider-height d-flex align-items-center">
             <div className="container">
@@ -29,10 +29,10 @@ export default function Home() {
                       Providing Consulting Services, Custom Development and
                       Standard Applications for MAX and Dynamics GP since 1996
                     </p>
-                    {/* <HeroButton
+                    <HeroButton
                       link="/contact"
                       title="Contact Us For A Quote"
-                    /> */}
+                    />
                     <div
                       className="hero__btn"
                       data-animation="fadeInLeft"
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* Slide2 */}
+          Slide2
           <div className="single-slider slider-height d-flex align-items-center">
             <div className="container">
               <div className="row">
@@ -71,10 +71,10 @@ export default function Home() {
                       sure the needs and expectations of every client are
                       covered.
                     </p>
-                    {/* <HeroButton
+                    <HeroButton
                       link="/services"
                       title="Read About Our Services"
-                    /> */}
+                    />
                     <div
                       className="hero__btn"
                       data-animation="fadeInLeft"
@@ -112,10 +112,10 @@ export default function Home() {
                       sure the needs and expectations of every client are
                       covered.
                     </p>
-                    {/* <HeroButton
+                    <HeroButton
                       link="/services"
                       title="Read About Our Services"
-                    /> */}
+                    />
                     <div
                       className="hero__btn"
                       data-animation="fadeInLeft"
@@ -131,7 +131,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*? Categories Area Start */}
       <div className="categories-area section-padding30">
         <div className="container">

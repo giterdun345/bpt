@@ -236,19 +236,19 @@ p {
 }
 
 /* line 42, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.bg-img-1 {
+/* .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
-}
+} */
 
 /* line 45, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.bg-img-2 {
+/* .bg-img-2 {
   background-image: url(../img/background-img/bg-img-2.jpg);
-}
+} */
 
 /* line 48, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.cta-bg-1 {
+/* .cta-bg-1 {
   background-image: url(../img/background-img/bg-img-3.jpg);
-}
+} */
 
 /* line 53, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .img {
@@ -3296,7 +3296,7 @@ a:hover {
 /* line 30, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .header-top {
   background: #0d2d3e;
-  padding: 13px 0px;
+  padding-top: 1rem;
 }
 
 /* line 36, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3338,6 +3338,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding: auto;
+  color: #fff !important;
 }
 
 /* line 62, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
@@ -3355,6 +3356,7 @@ a:hover {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
+  margin-top: -3rem;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3377,6 +3379,7 @@ a:hover {
   font-weight: 400;
   /* padding: 48px 80px; */
   display: block;
+  text-decoration: none;
   font-size: 1.8rem;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3387,8 +3390,8 @@ a:hover {
 }
 
 .menu-wrapper {
-  margin-top: -1.6rem;
-  margin-right: 0;
+  /* margin-top: -1.6rem;
+  margin-right: 0; */
 }
 
 @media only screen and (min-width: 1199px) {
@@ -3396,7 +3399,7 @@ a:hover {
     padding: 2rem;
   }
   .menu-wrapper {
-    height: 8rem;
+    height: 0.01rem;
   }
 }
 
@@ -6786,19 +6789,19 @@ a:focus {
 }
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
-.breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
-}
+/* .breadcam_bg { */
+/* background-image: url(../img/banner/bradcam.png); */
+/* } */
 
 /* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
-.breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
-}
+/* .breadcam_bg_1 { */
+/* background-image: url(../img/banner/bradcam2.png); */
+/* } */
 
 /* line 7, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
-.breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
-}
+/* .breadcam_bg_2 { */
+/* background-image: url(../img/banner/bradcam3.png); */
+/* } */
 
 /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
 .bradcam_area {
@@ -8372,7 +8375,7 @@ del {
 .logo {
   /* background: black; */
   width: 16rem;
-  position: absolute;
-  top: 5%;
+  /* position: absolute;
+  top: 5%; */
   z-index: 99;
 }
