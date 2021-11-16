@@ -1,7 +1,0 @@
-{
-  "presets": ["next/babel", "next/core-web-vitals"],
-  "plugins": ["@babel/plugin-proposal-do-expressions"],
-
-  }
-
- 
