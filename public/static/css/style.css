@@ -23,51 +23,51 @@
 
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:300,400,700,900|Titillium+Web:300,400,600,700&display=swap");
 /* line 34, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.white-bg {
+/* .white-bg {
   background: #ffffff;
-}
+} */
 
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.gray-bg {
+/* .gray-bg {
   background: #f5f5f5;
-}
+} */
 
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 74, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.section-bg1 {
+/* .section-bg1 {
   background: #13151b;
-}
+} */
 
 /* line 78, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.gray-bg {
+/* .gray-bg {
   background: #f7f7fd;
-}
+} */
 
 /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.white-bg {
+/* .white-bg {
   background: #ffffff;
-}
+} */
 
 /* line 84, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.black-bg {
+/* .black-bg {
   background: #16161a;
-}
+} */
 
 /* line 87, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.theme-bg {
+/* .theme-bg {
   background: #14435c;
-}
+} */
 
 /* line 90, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.brand-bg {
+/* .brand-bg {
   background: #f1f4fa;
-}
+} */
 
 /* line 93, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.testimonial-bg {
+/* .testimonial-bg {
   background: #f9fafc;
-}
+} */
 
 /*--- color------*/
 /* line 99, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
@@ -76,14 +76,14 @@
 }
 
 /* line 102, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.black-color {
+/* .black-color {
   color: #16161a;
-}
+} */
 
 /* line 105, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.theme-color {
+/* .theme-color {
   color: #14435c;
-}
+} */
 
 /*------------------- Responsive --------------------------*/
 /*
@@ -207,7 +207,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #092c3f;
   margin-top: 0px;
   font-style: normal;
@@ -293,13 +293,14 @@ a,
 /* line 74, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 a:focus,
 .button:focus {
-  text-decoration: none;
+  /* text-decoration: none; */
   outline: 1;
 }
 
 /* line 79, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 a {
   color: #635c5c;
+  text-decoration: none !important;
 }
 
 /* line 82, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -378,13 +379,14 @@ ul {
 }
 
 .sidenav-ul {
-  margin-top: 7rem;
+  margin-top: 2rem;
   padding: 0px;
   background: white;
 }
 
 .sidenav-links {
   color: black !important;
+  border: 1px black dotted;
 }
 
 /* line 125, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -402,6 +404,7 @@ li:hover {
   font-size: 48px;
   padding: 2.5rem;
   text-align: center;
+  border: 1px dotted;
 }
 
 /* line 129, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -498,7 +501,7 @@ hr {
 
 /* owl-carousel button style */
 /* line 201, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel .owl-nav div {
+/* .owl-carousel .owl-nav div {
   background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   height: 40px;
   left: 20px;
@@ -513,39 +516,39 @@ hr {
   transform: translateY(-50%);
   transition: all 0.3s ease 0s;
   width: 40px;
-}
+} */
 
 /* line 220, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel .owl-nav div.owl-next {
+/* .owl-carousel .owl-nav div.owl-next {
   left: auto;
   right: -30px;
-}
+} */
 
 /* line 223, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel .owl-nav div.owl-next i {
+/* .owl-carousel .owl-nav div.owl-next i {
   position: relative;
   right: 0;
   top: 1px;
-}
+} */
 
 /* line 230, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel .owl-nav div.owl-prev i {
+/* .owl-carousel .owl-nav div.owl-prev i {
   position: relative;
   right: 1px;
   top: 0px;
-}
+} */
 
 /* line 240, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel:hover .owl-nav div {
+/* .owl-carousel:hover .owl-nav div {
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /* line 243, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-.owl-carousel:hover .owl-nav div:hover {
+/* .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
   background: #ff3500;
-}
+} */
 
 /* line 253, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .btn {
@@ -3180,72 +3183,74 @@ a:hover {
 
 /*-------------   Color Variable  --------------*/
 /* line 34, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.white-bg {
+/* .white-bg {
   background: #ffffff;
-}
+} */
 
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.gray-bg {
+/* .gray-bg {
   background: #f5f5f5;
-}
+} */
 
 /*-------------Color include--------------*/
 /*-- Background color---*/
 /* line 74, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.section-bg1 {
-  background: #13151b;
-}
+/* .section-bg1 { */
+/* background: #13151b; */
+/* } */
 
 /* line 78, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.gray-bg {
-  background: #f7f7fd;
-}
+/* .gray-bg {
+  background: #f7f7fd; */
+/* } */
 
 /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.white-bg {
+/* .white-bg {
   background: #ffffff;
-}
+} */
 
 /* line 84, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.black-bg {
+/* .black-bg {
   background: #16161a;
-}
+} */
 
 /* line 87, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.theme-bg {
+/* .theme-bg {
   background: #14435c;
-}
+} */
 
 /* line 90, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.brand-bg {
+/* .brand-bg {
   background: #f1f4fa;
-}
+} */
 
 /* line 93, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.testimonial-bg {
+/* .testimonial-bg {
   background: #f9fafc;
-}
+} */
 
 /*--- color------*/
 /* line 99, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.white-color {
+/* .white-color {
   color: #ffffff;
-}
+} */
 
 /* line 102, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.black-color {
+/* .black-color {
   color: #16161a;
-}
+} */
 
 /* line 105, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_color.scss */
-.theme-color {
+/* .theme-color {
   color: #14435c;
-}
+} */
 
 .header-area .header-bottom {
   padding: 17px 0px;
   height: 10rem;
   align-content: center;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3664,15 +3669,19 @@ a:hover {
 
 /* line 48, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
-  font-size: 18px;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin-bottom: 22px;
   text-transform: uppercase;
+  /* background-color: #fe6c2bff; */
+  /* padding: 1rem; */
   color: #a51c30ff;
   display: inline-block;
   position: relative;
   padding-left: 100px;
+  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 @media (max-width: 575px) {
@@ -3704,6 +3713,8 @@ a:hover {
   font-family: "Sarabun", sans-serif;
   line-height: 1.2;
   margin-bottom: 33px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -8378,4 +8389,8 @@ del {
   /* position: absolute;
   top: 5%; */
   z-index: 99;
+}
+
+.hero-custom {
+  min-height: 600px;
 }

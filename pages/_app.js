@@ -10,11 +10,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../public/static/css/fontawesome-all.min.css";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    typeof document !== undefined
-      ? require("bootstrap/dist/js/bootstrap")
-      : null;
-  }, []);
+  // useEffect(() => {
+  //   typeof document !== undefined
+  //     ? import("bootstrap/dist/js/bootstrap.bundle.js")
+  //     : null;
+  // }, []);
+
+  // useEffect(() => {
+  //   import("bootstrap/dist/js/bootstrap");
+  // }, []);
 
   return (
     <>
@@ -37,6 +41,22 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </main>
       <Footer />
+      {/* <script
+        src="https://unpkg.com/react/umd/react.production.min.js"
+        crossorigin
+      ></script>
+
+      <script
+        src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+        crossorigin
+      ></script>
+
+      <script
+        src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+        crossorigin
+      ></script>
+
+      <script>var Alert = ReactBootstrap.Alert;</script> */}
     </>
   );
 }

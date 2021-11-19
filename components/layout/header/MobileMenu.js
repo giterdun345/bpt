@@ -10,24 +10,26 @@ const MobileMenu = () => {
       <div
         style={{
           position: "absolute",
-          right: "13vw",
+          right: "8vw",
           top: "30%",
           marginLeft: "10rem",
         }}
       >
-        <nav className="d-lg-none mobile_menu d-block">
-          <Hamburger
-            toggled={isOpen}
-            toggle={setIsOpen}
-            size={100}
-            duration={0.9}
-            rounded
-            style={{ marginRight: "1rem" }}
-          />
+        <nav className="d-lg-none mobile_menu d-block fl">
+          <div style={{ float: "right" }}>
+            <Hamburger
+              toggled={isOpen}
+              toggle={setIsOpen}
+              size={100}
+              duration={0.9}
+              rounded
+              style={{ marginRight: "1rem" }}
+            />
+          </div>
         </nav>
       </div>
       <div
-        style={{ width: "100vw" }}
+        // style={{ width: "100vw" }}
         className={isOpen ? "" : "sidenav-hidden"}
         onClick={() => setIsOpen(!isOpen)}
       >
