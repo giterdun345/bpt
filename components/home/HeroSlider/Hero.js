@@ -7,7 +7,7 @@ const Hero = () => {
       <div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-8 col-lg-7 col-md-8">
+            <div className="col-xl-6 col-lg-6 col-md-7">
               <div className="hero__caption" style={{ marginTop: "5rem" }}>
                 <span>WE HAVE A SOLUTION FOR YOU</span>
                 <h1>Balance Point Technologies</h1>
@@ -19,11 +19,12 @@ const Hero = () => {
                   requirement, we have a solution for you. Start optimizing with
                   MAX Toolkit or a custom solution for Dynamic GP today.
                 </p>
-                <HeroButton link="/contact" title="Contact Us For A Quote" />
-                <div className="hero__btn">
-                  <Link href="/contact" className="btn hero-btn">
-                    Learn more about what we offer
-                  </Link>
+                <div className="d-flex justify-content-around col-xl-10 col-lg-10 col-md-12 d-xs-none d-block ml-5 mb-5">
+                  <HeroButton
+                    link="/company"
+                    title="Learn About What We Offer"
+                  />
+                  <HeroButton link="/contact" title="Contact Us " />
                 </div>
               </div>
             </div>
