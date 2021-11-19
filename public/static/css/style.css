@@ -3394,10 +3394,10 @@ a:hover {
   text-transform: capitalize;
 }
 
-.menu-wrapper {
-  /* margin-top: -1.6rem;
-  margin-right: 0; */
-}
+/* .menu-wrapper {
+  margin-top: -2.5rem;
+  margin-right: 0;
+} */
 
 @media only screen and (min-width: 1199px) {
   .main-header .main-menu ul li a {
@@ -3412,6 +3412,11 @@ a:hover {
   /* line 85, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_headerMenu.scss */
   .main-header .main-menu ul li a {
     padding: 39px 14px;
+  }
+
+  .menu-wrapper {
+    margin-top: -2.5rem;
+    margin-right: 0;
   }
 }
 
